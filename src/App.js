@@ -3,6 +3,7 @@ import React from "react";
 
 function App() {
   const [message, setMessage] = React.useState("JavaScript is so cool.");
+  
   function handleClick() {
     setMessage("my new message");
   }
